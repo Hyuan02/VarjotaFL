@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alguma coisa Flights</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="body col-sm-4" id="function">
+		<div id="logo"><img src="images/varjota_logo.png"></div>
+		<div id="menu"> 
+			<button class="bt-n default-b"> <b>Round Trip</b></button>
+		</div>
+		<div id="part1">  
+			<div id="part1-1">
+				<b>Destinos de viagem</b> <br>
+			</div>
+			<div id="part1-2">
+				<i class="fa fa-plane" aria-hidden="true"></i>
+				<input class="input" type="text" name="from" placeholder="Viajar De"><br>
+				<div id="part1-2-1">
+					<i id="plane-flipped" class="fa fa-plane" aria-hidden="true"></i>
+					<input class="input" type="text" name="from" placeholder="Para">
+				</div>
+			</div>
+		</div>
+		<div id="part2"> 
+			<div id="part2-1">
+				<b>Datas de Viagem</b> <br>
+				<div id="part2-1-1">
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					<input type="date" name="from" class="date form-control">
+					<div id="part2-1-1-1">
+						<i class="fa fa-calendar" aria-hidden="true"></i>
+						<input type="date" name="from" class="date form-control">
+					</div>
+				</div>
+			</div>
+			<div id="part2-2">
+				<b>Detalhes do Passageiro</b> <br>
+				<div id="part2-2-1">
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<select class="select form-control">
+						<option>1 Adulto</option>
+						<option>1 Criança</option>
+					</select>
+					<div id="part2-2-1-1">
+						<i class="fa fa-wheelchair" aria-hidden="true"></i>
+						<select class="select form-control">
+							<option>Econômico</option>
+							<option>Topster</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="part3"> 
+			<div id="part3-1">
+				<b>Paradas da Viagem </b> <br>
+				<div id="part3-1-1">
+					<i class="fa fa-anchor" aria-hidden="true"></i>
+					<select class="select form-control">
+						<option>Várias paradas</option>
+						<option>1 parada</option>
+					</select>
+				</div>
+			</div>
+			<div id="part3-2">
+				<b>Hora da Viagem </b> <br>
+				<div id="part3-2-1">
+					<i class="fa fa-clock-o" aria-hidden="true"></i>
+					<select class="select form-control">
+						<option>Qualquer hora</option>
+						<option>1:00 PM</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div id="rest"> </div>
+	</div>
+	<div class="body col-sm-8" id="view">
+		<div id="feed1" class="col-sm-8"><h1 class="header" id="header1">O mundo é grande.<br>Explorá-lo ficou ainda mais fácil.</h1>
+		<button type="button" class="btn btn-primary btn-lg" id="botao1">Mostrar viagens</button>
+		</div>
+		<div id="feed2"><h1 class="header" id="header3">Explore novos destinos.</h1>
+			<div class="lugares" id="la1"><img src="images/london_real.jpg">Londres</div>
+			<div class="lugares" id="la2"><img src="images/paris_real.jpg">Paris</div>
+			<div class="lugares" id="la3"><img src="images/dubai_real.jpg">Dubai</div>
+			<div class="lugares" id="la4"><img src="images/tokyo_real.jpg">Tokyo</div>
+			<div class="lugares" id="la5"><img src="images/new_york_real.jpg">Nova Iorque</div>
+			<div class="lugares" id="la6"><img src="images/sao_paulo_real.jpg">São Paulo</div>
+			<div id="zona_direita"><i class="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i></div>
+		</div>
+	</div>
+	<div id="flutuantes">
+		<button class="botoesflutuantes btn btn-default" id="botaof1"><i class="fa fa-map" aria-hidden="true"></i></button><br/>
+		<button class="botoesflutuantes btn btn-default" id="botaof2"><i class="fa fa-line-chart" aria-hidden="true"></i></button>
+	</div>
+</body>
+</html>
